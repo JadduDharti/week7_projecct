@@ -1,0 +1,62 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
+}
+
+.container {
+    max-width: fit-content;
+    max-height: fit-content;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.616);
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.616);
+    text-align: center;
+}
+
+h1 {
+    margin-top: 40px;
+    font-size: 36px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: #0062cc;
+}
+
+#weather-info {
+    margin-top: 40px;
+}
+
+#weather-info p {
+    font-size: 24px;
+}
+
+#weather-info span {
+    font-weight: bold;
+}
